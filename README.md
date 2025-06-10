@@ -1,16 +1,16 @@
 # Projeto TeP Redes - Trabalhos e Provas
 
 <p align="center">
-  <img src="trabalhoseprovasredes/public/prints/print1.png" alt="Print 1" width="350"/>
-  <img src="trabalhoseprovasredes/public/prints/print2.png" alt="Print 2" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print1.png" alt="Print 1" width="400"/>
+  <img src="trabalhoseprovasredes/public/prints/print2.png" alt="Print 2" width="400"/>
 </p>
 <p align="center">
-  <img src="trabalhoseprovasredes/public/prints/print3.png" alt="Print 3" width="350"/>
-  <img src="trabalhoseprovasredes/public/prints/print4.png" alt="Print 4" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print3.png" alt="Print 3" width="400"/>
+  <img src="trabalhoseprovasredes/public/prints/print4.png" alt="Print 4" width="400"/>
 </p>
 <p align="center">
-  <img src="trabalhoseprovasredes/public/prints/print5.png" alt="Print 5" width="350"/>
-  <img src="trabalhoseprovasredes/public/prints/print6.png" alt="Print 6" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print5.png" alt="Print 5" width="400"/>
+  <img src="trabalhoseprovasredes/public/prints/print6.png" alt="Print 6" width="400"/>
 </p>
 
 Este projeto é em uma plataforma para compartilhamento de trabalhos e provas das disciplinas do curso de Redes de Computadores. (Node.js com Express) + (React com Vite).
@@ -173,9 +173,6 @@ O frontend é feito com React e Vite.
 *   **NotFound:** Página para rotas não encontradas ([`src/pages/NotFound.jsx`](trabalhoseprovasredes/src/pages/NotFound.jsx)).
 
 O roteamento no frontend é gerenciado pelo [`src/App.jsx`](trabalhoseprovasredes/src/App.jsx), que define rotas públicas, privadas para usuários (`PrivateRoute`), privadas para administradores (`AdminPrivateRoute`) e privadas para usuários ou administradores (`UserOrAdminPrivateRoute`).
-```# Projeto TeP Redes - Trabalhos e Provas
-
-
 
 ### Configuração e Instalação (Backend)
 
