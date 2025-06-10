@@ -2,11 +2,10 @@
 
 ## Screenshots
 
-| Tela 1 | Tela 2 | Tela 3 |
-|---|---|---|
-| <img src="trabalhoseprovasredes/public/prints/tela1.png" alt="Tela 1" width="250"/> | <img src="trabalhoseprovasredes/public/prints/tela2.png" alt="Tela 2" width="250"/> | <img src="trabalhoseprovasredes/public/prints/tela3.png" alt="Tela 3" width="250"/> |
-| **Tela 4** | **Tela 5** | **Tela 6** |
-| <img src="trabalhoseprovasredes/public/prints/tela4.png" alt="Tela 4" width="250"/> | <img src="trabalhoseprovasredes/public/prints/tela5.png" alt="Tela 5" width="250"/> | <img src="trabalhoseprovasredes/public/prints/tela6.png" alt="Tela 6" width="250"/> |
+<img src="trabalhoseprovasredes/public/prints/print1.png" alt="Print 1" width="250"/> <img src="trabalhoseprovasredes/public/prints/print2.png" alt="Print 2" width="250"/> <img src="trabalhoseprovasredes/public/prints/print3.png" alt="Print 3" width="250"/>
+<br/>
+<img src="trabalhoseprovasredes/public/prints/print4.png" alt="Print 4" width="250"/> <img src="trabalhoseprovasredes/public/prints/print5.png" alt="Print 5" width="250"/> <img src="trabalhoseprovasredes/public/prints/print6.png" alt="Print 6" width="250"/>
+
 
 Este projeto consiste em uma plataforma para compartilhamento de trabalhos e provas relacionados às disciplinas do curso de Redes de Computadores. É composto por um backend (Node.js com Express) e um frontend (React com Vite).
 
@@ -14,8 +13,8 @@ Este projeto consiste em uma plataforma para compartilhamento de trabalhos e pro
 
 O projeto está dividido em duas pastas principais:
 
-*   `tepredes-back/`: Contém o código do servidor backend.
-*   `trabalhoseprovasredes/`: Contém o código da aplicação frontend.
+*   `tepredes-back/` Backend.
+*   `trabalhoseprovasredes/` Frontend.
 
 ## Backend (`tepredes-back/`)
 
