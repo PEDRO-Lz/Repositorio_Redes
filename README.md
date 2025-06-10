@@ -1,11 +1,19 @@
 # Projeto TeP Redes - Trabalhos e Provas
 
-<img src="trabalhoseprovasredes/public/prints/print1.png" alt="Print 1" width="300"/> <img src="trabalhoseprovasredes/public/prints/print2.png" alt="Print 2" width="300"/> <img src="trabalhoseprovasredes/public/prints/print3.png" alt="Print 3" width="300"/>
-<br/>
-<img src="trabalhoseprovasredes/public/prints/print4.png" alt="Print 4" width="300"/> <img src="trabalhoseprovasredes/public/prints/print5.png" alt="Print 5" width="300"/> <img src="trabalhoseprovasredes/public/prints/print6.png" alt="Print 6" width="300"/>
+<p align="center">
+  <img src="trabalhoseprovasredes/public/prints/print1.png" alt="Print 1" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print2.png" alt="Print 2" width="350"/>
+</p>
+<p align="center">
+  <img src="trabalhoseprovasredes/public/prints/print3.png" alt="Print 3" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print4.png" alt="Print 4" width="350"/>
+</p>
+<p align="center">
+  <img src="trabalhoseprovasredes/public/prints/print5.png" alt="Print 5" width="350"/>
+  <img src="trabalhoseprovasredes/public/prints/print6.png" alt="Print 6" width="350"/>
+</p>
 
-
-Este projeto consiste em uma plataforma para compartilhamento de trabalhos e provas relacionados às disciplinas do curso de Redes de Computadores. É composto por um backend (Node.js com Express) e um frontend (React com Vite).
+Este projeto é em uma plataforma para compartilhamento de trabalhos e provas das disciplinas do curso de Redes de Computadores. (Node.js com Express) + (React com Vite).
 
 ## Estrutura do Projeto
 
