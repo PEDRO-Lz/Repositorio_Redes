@@ -1,0 +1,120 @@
+.login-bg {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.login-form {
+  background: #20232b;
+  border-radius: 16px;
+  box-shadow: 0 8px 32px 0 #0006;
+  max-width: 360px;
+  width: 100%;
+  padding: 32px 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  align-items: stretch;
+}
+
+.login-form h2 {
+  color: #61dafb;
+  font-size: 2em;
+  margin: 0 0 12px 0;
+  text-align: center;
+}
+
+.login-form input {
+  background: #23243a;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.6em;
+  font-size: 1em;
+  margin-bottom: 4px;
+  box-shadow: 0 1px 2px #0002;
+}
+
+.login-form button {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7em 1.2em;
+  font-size: 1.05em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 1px 3px #0002;
+  margin-top: 6px;
+}
+
+.login-form button[type="button"] {
+  background: #23243a;
+  margin-top: 0;
+}
+
+.login-form button:hover {
+  background: #535bf2;
+  color: #fff;
+}
+
+.home-footer-log {
+  margin-top: -5px;
+  text-align: center;
+  font-size: 0.95em;
+  color: #888;
+}
+
+.home-footer-log a {
+  color: #0072b1;
+  margin-left: 4px;
+  text-decoration: none;
+}
+
+.home-footer-log a:hover {
+  text-decoration: underline;
+}
+
+.comunidade-diretrizes {
+  margin-top: 0.1px;
+  text-align: center;
+}
+
+.diretrizes-link {
+  position: relative;
+  color: #90caf9;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: 0.98em;
+}
+
+.diretrizes-tooltip {
+  display: none;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 120%;
+  background: #222;
+  color: #fff;
+  padding: 12px 18px;
+  border-radius: 8px;
+  font-size: 0.80em;
+  white-space: pre-line;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  z-index: 10;
+  min-width: 240px;
+  max-width: 320px;
+}
+
+.diretrizes-link:hover .diretrizes-tooltip {
+  display: block;
+}
+
+.login-loading {
+  color: #1976d2;
+  text-align: center;
+  margin-bottom: 10px;
+}

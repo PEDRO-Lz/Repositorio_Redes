@@ -1,0 +1,125 @@
+.post-bg {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding-top: 40px;
+}
+
+.post-container {
+  background: #20232b;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 #0006;
+  max-width: 480px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 36px 32px 40px 32px;
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+}
+
+.post-header-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 24px;
+  margin-bottom: 20px;
+}
+
+.post-title {
+  color: #61dafb;
+  font-size: 2em;
+  margin: 0;
+  text-align: center;
+}
+
+.post-logout-btn {
+  background: #23243a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.17s;
+  box-shadow: 0 1px 3px #0003;
+}
+.post-logout-btn:hover {
+  background: #646cff;
+  color: #fff;
+}
+
+.post-back-btn {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-size: 1.05em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.17s;
+  box-shadow: 0 1px 3px #0003;
+  margin: 0 auto 20px auto;
+  display: block;
+}
+.post-back-btn:hover {
+  background: #535bf2;
+}
+
+.post-form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+.post-form label {
+  color: #bfc7d5;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.post-form select,
+.post-form textarea,
+.post-form input[type="file"] {
+  background: #23243a;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.6em;
+  font-size: 1em;
+  margin-bottom: 8px;
+  box-shadow: 0 1px 2px #0002;
+}
+
+.post-form textarea {
+  min-height: 80px;
+  resize: vertical;
+}
+
+.post-form button[type="submit"] {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.7em 1.7em;
+  font-size: 1.08em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 1px 3px #0002;
+  margin-top: 10px;
+}
+.post-form button[type="submit"]:hover {
+  background: #535bf2;
+}
+
+.post-mensagem {
+  margin-top: 16px;
+  color: #61dafb;
+  font-weight: bold;
+  text-align: center;
+}

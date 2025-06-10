@@ -1,0 +1,53 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+model Admin {
+  id             String   @id @default(auto()) @map("_id") @db.ObjectId
+  nome           String
+  email          String   @unique
+  senha          String
+  postsAprovados Post[]   @relation("Aprovacoes")
+}
+
+model Usuario {
+  id     String   @id @default(auto()) @map("_id") @db.ObjectId
+  nome   String
+  email  String   @unique
+  senha  String
+  status Status   @default(pendente)
+  posts  Post[]   @relation("Postagens")
+  codigoVerificacao String?
+  codigoExpiraEm    DateTime?
+  tentativasEnvioCodigo      Int?      @default(0)
+  ultimaTentativaEnvioCodigo DateTime?
+}
+
+model Post {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  arquivoPdf   String
+  descricao    String?
+  status       Status   @default(pendente)
+  tipo         Tipo
+  disciplina   String
+  postadoPor   Usuario  @relation("Postagens", fields: [usuarioId], references: [id])
+  usuarioId    String   @db.ObjectId
+  adminResponsavel Admin? @relation("Aprovacoes", fields: [adminId], references: [id])
+  adminId          String?  @db.ObjectId 
+}
+
+enum Status {
+  pendente
+  ativo
+  recusado
+}
+
+enum Tipo {
+  trabalho
+  prova
+}

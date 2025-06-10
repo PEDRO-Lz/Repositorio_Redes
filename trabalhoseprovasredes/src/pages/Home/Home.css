@@ -1,0 +1,138 @@
+.home-container {
+  width: 1100px;
+  padding: 0.2px 20px 40px 20px;
+  background: #181a20;
+  border-radius: 18px;
+  box-shadow: 0 8px 32px 0 #0006;
+}
+
+.home-title {
+  text-align: center;
+  font-size: 2.3em;
+  color: #61dafb;
+  margin-bottom: 0.2em;
+  letter-spacing: 1px;
+}
+
+.home-logout-row {
+  display: flex;
+  justify-content: center;
+  margin-top: 24px;
+  /* adiciona espaço acima */
+  margin-bottom: 1em;
+}
+
+.home-logout-row button {
+  background: #23243a;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7em 2em;
+  font-size: 1.1em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.17s;
+  box-shadow: 0 1px 3px #0003;
+}
+
+.home-logout-row button:hover {
+  background: #646cff;
+  color: #fff;
+}
+
+.home-total-row {
+  display: flex;
+  justify-content: center;
+  font-size: 1.15em;
+  color: #bfc7d5;
+  margin-bottom: 30px;
+  gap: 8px;
+  align-items: center;
+  margin-bottom: 0.5em;
+  margin-top: -55px;
+  /* adiciona espaço acima */
+}
+
+.home-total-row b {
+  color: #fff;
+  font-size: 1.45em;
+  margin-left: 6px;
+  font-family: 'Orbitron', 'Avenir', 'Helvetica', Arial, sans-serif;
+}
+
+.home-post-btn {
+  background: #646cff;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  padding: 0.6em 1.6em;
+  font-size: 1.08em;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background 0.18s;
+  box-shadow: 0 1px 3px #0002;
+  margin: 0 auto 28px auto;
+  display: block;
+}
+
+.home-post-btn:hover {
+  background: #535bf2;
+}
+
+.home-matrizes-row {
+  display: flex;
+  gap: 40px;
+  margin-top: 20px;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+  .home-matrizes-row {
+    flex-direction: column;
+    gap: 24px;
+    align-items: center;
+  }
+}
+
+.home-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 0.1px;
+}
+
+.home-title {
+  font-size: 2.3em;
+  color: #61dafb;
+  letter-spacing: 1px;
+  margin: 0;
+}
+
+.home-icon {
+  width: 180px;
+  position: relative;
+  top: 20px;
+  /* puxa para baixo */
+  left: 10px;
+  /* puxa para a direita */
+}
+
+.home-footer {
+  margin-top: 2px;
+  text-align: center;
+  font-size: 0.95em;
+  color: #888;
+}
+
+.home-footer a {
+  color: #0072b1;
+  margin-left: 4px;
+  text-decoration: none;
+}
+
+.home-footer a:hover {
+  text-decoration: underline;
+}
